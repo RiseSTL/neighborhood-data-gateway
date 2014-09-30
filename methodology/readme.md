@@ -55,16 +55,22 @@ For organizations looking to work with business data, the list below may serve a
 
 * Local business licenses
     Potential source for business location, type/category, and often the number of employees (which might aid in cross-checking sales volume).  Challenges include license data collected in different formats by different local governmental entities as well as non-standard business categories (i.e., not NAICS or SIC codes)
+	
 * Local commercial occupancy permits
     Potential source for business location and possibly type/category.  However, just like local  business license data, commercial occupancy permits are collected in different formats by different local governmental entities and therefore are a challenge to access/collect/standardize.
+	
 * Longitudinal Employer-Household Dynamics
     The Longitudinal Employer-Household Dynamics (LEHD) program is part of the Center for Economic Studies at the U.S. Census Bureau.  Under the LED Partnership, states agree to share Unemployment Insurance earnings data and the Quarterly Census of Employment and Wages (QCEW) data with the Census Bureau. The LEHD program combines these administrative data, additional administrative data and data from censuses and surveys. From these data, the program creates statistics on employment, earnings, and job flows at detailed levels of geography and industry and for different demographic groups.  The LEHD data does not show individual businesses or sales volume, but does show the number of jobs in different categories at very small geographies.
+	
 * State sales tax revenue
     Sales tax revenue is a promising potential source and could also serve a good cross-check against reported retail sales volume.  After speaking with multiple contacts in Missouri, however, it appears that sales tax revenue data is only available to the public at aggregated geographies such as ZIP code rather than at the individual business level.
+	
 * National Establishment Time-Series (NETS) database
     Although it is built using Dun & Bradstreet data, the NETS database is worth special mention because it is both reasonably priced and longitudinal in nature.  Walls & Associates converts Dun and Bradstreet (D&B) archival establishment data into a time-series database of establishment information, providing longitudinal data on various dynamics of the U.S. economy that include establishment job creation and destruction, sales growth performance, survivability of business startups, mobility patterns, changes in primary markets, corporate affiliations that highlight M&A, and historical D&B credit and payment ratings.
+	
 * Foursquare API or similar social check-in APIs
     Increasingly, apps such as Foursquare contain a wealth of business data collected when users "check in" to locations, and they offer an API to allow developers to access their data.  Unfortunately, in high poverty areas, fewer residents are likely to own smartphones that allow them to use Foursquare.  In addition, it is less likely that an individual will "check in" at mundane locations such as a corner store and more likely they will use the app when they are out with friends or family in social settings.  For these reasons, the Foursquare data is not currently sufficient for analyzing access to basic goods and services in underresourced neighborhoods.  However, in time, this may become a valid option.
+	
 * Cross-checking or merging multiple datasets from the options above
     Obviously, cross-checking datasets or merging datasets is an option to either attempt to increase accuracy or to include, say, sales volume from one dataset with NAICS codes from another dataset.
 
